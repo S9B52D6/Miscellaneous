@@ -1,10 +1,9 @@
 require 'nokogiri'
-require 'tree'
 require 'open-uri'
 
 #Attempts to find a given Wikipedia entry
-#and prints all relevant wikipedia links
-#from within that entry
+#and writes all relevant wikipedia links
+#to file
 
 #Prompts user to enter subject term
 print 'Enter Subject: '
