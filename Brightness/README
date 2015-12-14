@@ -1,13 +1,11 @@
-##README##
+# README
 Edits /sys backlight file to view/change the global backlight brightness level
 
 USAGE: 
-
 brightness: Prints current brightness value
 brightness [x]: Changes file to new brightness level
 
 NOTE:
-
 Must be root user to edit file
 Path may be machine-dependent, recompile with new path if needed
 Value is not a percentage, value may be machine-dependent
